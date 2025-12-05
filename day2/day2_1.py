@@ -9,8 +9,8 @@ def split_in_half(s: str) -> tuple:
 
 output = 0
 
-with open('day2.input', 'r') as input:
-	for line in input:
+with open('day2.input', 'r') as str_input:
+	for line in str_input:
 		input_array = line.split(',')
 
 for ids in input_array:

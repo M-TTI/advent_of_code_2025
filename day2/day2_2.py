@@ -11,8 +11,8 @@ def has_repeated_sequence(s: str) -> bool:
 
 output = 0
 
-with open('day2.input', 'r') as input:
-	input_array = input.readline().split(',')
+with open('day2.input', 'r') as str_input:
+	input_array = str_input.readline().split(',')
 
 for ids in input_array:
 	first_id, last_id = ids.split('-')

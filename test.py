@@ -1,4 +1,2 @@
-b = [2]
-a, = b
-
-print(a)
+test = 'abcabc'
+print(test.replace('a', '', 1))
